@@ -1,4 +1,4 @@
-k"use client";
+"use client";
 
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 import { useEffect, useState } from "react";

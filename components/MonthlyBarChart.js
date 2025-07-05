@@ -27,3 +27,28 @@ export default function MonthlyBarChart() {
         const sortedData = Object.entries(monthlyTotals)
           .map(([month, total]) => ({ month, total }))
           .sort((a, b) => new Date(`1 ${a.month}`) - new Date(`1 ${b.month}`));
+
+        setData(sortedData);
+      } catch (error) {
+        console.error("Failed to fetch monthly data", error);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  return (
+    <div>
+      <h2 className="text-xl font-bold mb-4">📊 Monthly Expenses</h2>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Bar dataKey="total" fill="#6366f1" radius={[4, 4, 0, 0]} />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
+}
