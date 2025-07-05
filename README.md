@@ -9,6 +9,13 @@ A powerful and responsive personal finance tracking app built with **Next.js**, 
 
 ---
 
+## ⚠️ Known Issue
+
+> The deployed version may show **"Failed to add transaction"** due to MongoDB hosting or environment variable issues.
+>  
+> **But full functionality exists in the code.**
+
+
 ## ✨ Features
 
 ### 🚀 Stage 1: Basic Transaction Tracker
