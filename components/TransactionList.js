@@ -1,25 +1,23 @@
-"use client";
+'use client';
+
 import { useEffect, useState } from "react";
 
 export default function TransactionList() {
   const [transactions, setTransactions] = useState([]);
+  const [loading, setLoading] = useState(true);
 
+  // Fetch all transactions on mount
   useEffect(() => {
-    fetch("/api/transactions")
-      .then((res) => res.json())
-      .then(setTransactions);
-  }, []);
+    async function fetchTransactions() {
+      try {
+        const res = await fetch('/api/transactions');
+        const data = await res.json();
+        setTransactions(data);
+      } catch (error) {
+        console.error("Error fetching transactions:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
 
-  return (
-    <div>
-      <h2 className="text-xl font-bold">Transactions</h2>
-      <ul className="space-y-2">
-        {transactions.map((t) => (
-          <li key={t._id} className="border p-2 rounded">
-            ₹{t.amount} - {t.description} ({t.category}) on {new Date(t.date).toLocaleDateString()}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+    fetch
