@@ -5,8 +5,7 @@ A powerful and responsive personal finance tracking app built with **Next.js**, 
 ---
 
 ## 🔗 Live Demo
-
-👉 [https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app](https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app)👉 [https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app](https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app)👉 [https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app](https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app)👉 [https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app](https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app)
+👉 [https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app](https://personal-finance-visualizer-6hfh2gf3i-aman-bijarnias-projects.vercel.app)
 
 ---
 
