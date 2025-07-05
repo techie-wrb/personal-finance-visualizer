@@ -4,6 +4,12 @@ A powerful and responsive personal finance tracking app built with **Next.js**, 
 
 ---
 
+## 🔗 Live Demo
+
+[personal-finance-visualizer](https://personal-finance-visualizer-833ag8l11-aman-bijarnias-projects.vercel.app)
+
+---
+
 ## ✨ Features
 
 ### 🚀 Stage 1: Basic Transaction Tracker
