@@ -49,4 +49,7 @@ export default function Home() {
       </div>
 
       {/* Transaction List */}
-      <TransactionList transactions={transactions}
+      <TransactionList transactions={transactions} />
+    </main>
+  );
+}
