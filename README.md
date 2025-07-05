@@ -95,11 +95,6 @@ This is a **single-user app**. No login or authentication is implemented .
 
 ---
 
-## 💼 Internship Summary Line
-
-> Built a full-stack personal finance tracking app with category budgeting, insights, and interactive charts using Next.js, MongoDB, Recharts, and shadcn/ui. Deployed on Vercel.
-
----
 
 ## 👨‍💻 Author
 
